@@ -1,1 +1,1 @@
-# Librearia COBOL en español
+# Libreria COBOL en español
