@@ -8,15 +8,15 @@
            SELECT REPORTE   ASSIGN TO PRINTER.
       * ---------------------------------------------------------------
       * ENVIRONMENT DIVISION:
-      *    ALMACENA INFORMACION ACERCA DEL HARDWARE Y ARCHIVOS 
-      *    A UTILIZAR
+      *    - ALMACENA INFORMACION ACERCA DEL HARDWARE Y ARCHIVOS 
+      *      A UTILIZAR
 
       * TIENE DOS SECCIONES:
 
       *    CONFIGURATION SECTION.
-      *        SOURCE-COMPUTER
-      *        OBJECT-COMPUTER
+      *        - SOURCE-COMPUTER
+      *        - OBJECT-COMPUTER
 
       *    INPUT-OUTPUT SECTION.
-      *        FILE-CONTROL
-      *            SELECT (ARCHIVO Y A QUE DISPOSITIVO)
+      *        - FILE-CONTROL
+      *              SELECT (ARCHIVO Y A QUE DISPOSITIVO)
