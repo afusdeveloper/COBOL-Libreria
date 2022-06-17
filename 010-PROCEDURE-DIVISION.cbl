@@ -63,3 +63,4 @@
       *    - READ
       *    - WRITE
       *    - GO TO
+      *    - ADD
