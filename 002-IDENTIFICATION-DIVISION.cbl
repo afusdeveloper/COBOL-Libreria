@@ -1,6 +1,6 @@
        IDENTIFICATION DIVISION.
       * -----------------------
-       PROGRAM-ID.                     PRIMERA-DIVISION.
+       PROGRAM-ID.                     DIVISION-IDENTIFICATION.
        AUTHOR.                         AYMARA M FUSARO.
        DATE-WRITTEN.                   04/06/2022.
       * ---------------------------------------------------------------

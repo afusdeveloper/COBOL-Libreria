@@ -1,3 +1,11 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID.                     SECCION-WORKING.
+       AUTHOR.                         AYMARA M FUSARO.
+       DATE-WRITTEN.                   04/06/2022.
+      * ---------------------------------------------------------------
+       DATA DIVISION.
+       FILE SECTION.
+
        WORKING-STORAGE SECTION.
 
        01  W-AREAS-A-USAR.

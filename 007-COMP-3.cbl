@@ -1,3 +1,11 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID.                     LONGITUD-COMP-3.
+       AUTHOR.                         AYMARA M FUSARO.
+       DATE-WRITTEN.                   04/06/2022.
+      * ---------------------------------------------------------------
+       DATA DIVISION.
+       FILE SECTION.
+
        WORKING-STORAGE SECTION.
        01  WS-REG-SALDOS.
            05 WS-CUENTA                PIC 9(07).

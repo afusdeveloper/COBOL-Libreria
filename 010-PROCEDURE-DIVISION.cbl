@@ -1,11 +1,28 @@
+       IDENTIFICATION DIVISION.
+      *------------------------ 
+       PROGRAM-ID.                 DIVISION-PROCEDURE.
+       AUTHOR.                     AYMARA M FUSARO.
+       DATE-WRITTEN.               17/06/2022.
+      * ---------------------------------------------------------------
+       PROCEDURE DIVISION.
+      *-------------------- 
+       010-ABRIR-ARCHIVOS.
+           OPEN INPUT ARCHIVO-EMPLEADOS
+           OPEN OUTPUT REPORTE-EMPLEADOS.
+       010-END.
 
+       020-LEER-ARCHIVOS.
+           READ ARCHIVO-EMPLEADOS INTO WS-REG-EMPLEADOS
+                AT END MOVE "S" TO WS-EOF.
+       020-END.
 
+       030-GRABAR-ARCHIVOS.
+           WRITE REG-EMPLEADOS FROM WS-REG-EMPLEADOS.
+       030-END.
 
-
-
-      * PROCEDURE DIVISION
-      * PARRAFOS, INSTRUCCIONES Y TIPOS DE INSTRUCCIONES
-
+      * ---------------------------------------------------------------
+      * PROCEDURE DIVISION:
+      *     PARRAFOS, INSTRUCCIONES Y TIPOS DE INSTRUCCIONES
 
       * USADA PARA AÑADIR INSTRUCCIONES Y LOGICA A NUESTRO PROGRAMA COBOL
 
@@ -42,36 +59,7 @@
 
 
       * INSTRUCCIONES BASICAS:
-
-      *    - OPEN:
-      *      SE USA PARA ABRIR UN ARCHIVO EN COBOL, ANTES DE MANIPULAR
-      *      UN ARCHIVO YA SEA PARA LEERLO O GRABARLO SE DEBE DE ABRIR
-
-      *          OPEN INPUT/OUTPUT <NOMBRE-ARCHIVO>
-
-      *    EJEMPLO:
-      *          OPEN INPUT ARCHIVO-EMPLEADOS
-      *          OPEN OUTPUT REPORTE-EMPLEADOS
-      
-
-      *    - READ:
-      *      SE USA PARA LEER UN ARCHIVO EN COBOL, SE LEE REGISTRO
-      *      POR REGISTRO
-
-      *          READ <NOMBRE-ARCHIVO> INTO <WS-REGISTRO> 
-      *               AT END <INSTRUCCION IMPERATIVA>
-
-      *    EJEMPLO:
-      *          READ ARCHIVO-EMPLEADOS INTO WS-REG-EMPLEADOS
-      *               AT END MOVE "S" TO WS-EOF.
-      
-      *    <NOMBRE-ARCHIVO>: 
-      *     LO DEFINIMOS EN LA CLAUSULA SELECT Y EN LA FD
-      
-      *    INTO <WS-REGISTRO>: 
-      *     LUEGO DE LEER EL PRIMER REGISTRO LO DEJA EN EL CAMPO 
-      *     DEFINIDO EN LA WORKING-STORAGE
-
-      *    AT END <INSTRUCCION-IMPERATIVA>:
-      *     AQUI DEFINIMOS LO QUE QUEREMOS QUE EL PROGRAMA HAGA AL 
-      *     TERMINAR DE LEER EL ULTIMO REGISTRO
+      *    - OPEN
+      *    - READ
+      *    - WRITE
+      *    - GO TO

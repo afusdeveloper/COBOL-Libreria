@@ -1,3 +1,8 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID.                     DIVISION-DATA.
+       AUTHOR.                         AYMARA M FUSARO.
+       DATE-WRITTEN.                   04/06/2022.
+      * ---------------------------------------------------------------
        DATA DIVISION.
        FILE SECTION.
 

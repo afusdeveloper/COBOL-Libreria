@@ -1,3 +1,10 @@
+      IDENTIFICATION DIVISION.
+       PROGRAM-ID.                     SECCION-LINKAGE.
+       AUTHOR.                         AYMARA M FUSARO.
+       DATE-WRITTEN.                   04/06/2022.
+      * ---------------------------------------------------------------
+       DATA DIVISION.
+       FILE SECTION.
       * ---------------------------------------------------------------
       *             PROGRAMA LLAMADOR
       * --------------------------------------------------------------- 
