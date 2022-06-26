@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION. 
-       PROGRAM-ID.                     ARCHIVOS-INDEXADOS.
+       PROGRAM-ID.                     ARCHIVOS-INDEXADOS-I-O.
        AUTHOR.                         AYMARA M FUSARO.
        DATE-WRITTEN.                   26/06/2022.
       * ---------------------------------------------------------------
